@@ -1,7 +1,7 @@
 import random
 
 def bubble_sort(in_list):
-  for stage_num in range(len(in_list)):
+  for stage_num in range(len(in_list) - 1):
     print(f"Stage {stage_num + 1}")
     for i in range(len(in_list) - 1):
       if in_list[i] > in_list[i + 1]:
